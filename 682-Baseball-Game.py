@@ -8,9 +8,9 @@ class Solution(object):
         for op in operations: 
             if op == 'D':
                 stk.append(stk[-1]*2)
-            if op == 'C':
+            elif op == 'C':
                 stk.pop()
-            if op == '+':
+            elif op == '+':
                 stk.append(stk[-1]+ stk[-2])
             else: 
                 stk.append(int(op)) # dont understand this else statment lol
