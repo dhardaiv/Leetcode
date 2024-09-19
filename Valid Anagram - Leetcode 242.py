@@ -13,3 +13,5 @@ class Solution(object):
             return True
         else: 
             return False
+# time complexity of O(n)
+# space complexity of O(1)
