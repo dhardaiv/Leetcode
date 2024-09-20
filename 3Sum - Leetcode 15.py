@@ -18,3 +18,5 @@ class Solution(object):
                     s.add(tuple(sorted([nums[i], nums[j], desired])))
 
         return s
+# Time COmplexity - O(n^2)
+# Space Complexity - O(n)
